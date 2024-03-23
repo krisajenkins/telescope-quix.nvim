@@ -280,7 +280,7 @@ M.quix_organisations = function(opts)
       sorter = conf.generic_sorter(opts),
 
       previewer = previewers.new_buffer_previewer({
-        title = 'Deployment Details',
+        title = 'Organisation Details',
         define_preview = generic_define_preview,
       }),
 

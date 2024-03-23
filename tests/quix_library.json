@@ -1,0 +1,1890 @@
+[
+  {
+    "itemId": "9514c27e-c924-4d3b-ab47-9ecfe6570293",
+    "name": "Kafka Connect Source",
+    "language": "Python",
+    "tags": [
+      "Advanced",
+      "Source",
+      "Connectors",
+      "Kafka"
+    ],
+    "shortDescription": "Publish a Kafka Connect source connector to Quix 
+platform",
+    "createdAt": "2024-01-31T17:00:35+00:00",
+    "updatedAt": "2024-02-20T09:13:01+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "9514c27e-c924-4d3b-ab47-9ecfe6570294",
+    "name": "Kafka Connect Sink",
+    "language": "Python",
+    "tags": [
+      "Advanced",
+      "Destination",
+      "Connectors",
+      "Kafka"
+    ],
+    "shortDescription": "Publish a Kafka Connect sink connector to Quix 
+platform",
+    "createdAt": "2024-01-31T17:00:35+00:00",
+    "updatedAt": "2024-02-20T09:13:01+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "fb64b54f-b9b5-41b1-b4a8-d793daca1123",
+    "name": "HTTP API - Shell Script",
+    "language": "Shell Script",
+    "tags": [
+      "Quix APIs",
+      "Easy",
+      "Code samples",
+      "Quick Start"
+    ],
+    "shortDescription": "This sample shows how to use HTTP Writer API in the 
+command-line",
+    "sampleTemplate": true,
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "e8102920-b815-4c53-9dcd-f47712345b1c",
+    "name": "Postman",
+    "language": "Javascript",
+    "tags": [
+      "Easy",
+      "Quix APIs"
+    ],
+    "shortDescription": "Use our Postman collection to get started with the Quix
+APIs",
+    "sampleTemplate": true,
+    "createdAt": "2023-06-29T14:12:08+00:00",
+    "updatedAt": "2023-07-20T10:43:44+00:00",
+    "iconFile": "postman-logo.svg"
+  },
+  {
+    "itemId": "0983e721-5c85-4f87-8859-51e12e137ee3",
+    "name": "Sample template",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "A template for creating Quix Code Samples using 
+Python",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "f86e7b37-2fa2-4df6-a96c-8ca75a0cffc3",
+    "name": "Web API Template",
+    "language": "NodeJs",
+    "tags": [
+      "Easy",
+      "Basic templates"
+    ],
+    "shortDescription": "A template for creating web APIs with Node.js",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "50b9c8da-a101-4383-ad94-49b263b80633",
+    "name": "Sample template",
+    "language": "NodeJs",
+    "tags": [
+      "Easy",
+      "Basic templates"
+    ],
+    "shortDescription": "A template for Quix Code Samples Node.js applications",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "dc712441-abf5-43b7-a7a2-ced9a3f9508b",
+    "name": "React starter template",
+    "language": "NodeJs",
+    "tags": [
+      "Easy",
+      "Basic templates"
+    ],
+    "shortDescription": "A template for creating a UI with React",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00"
+  },
+  {
+    "itemId": "9d3f9413-51cd-4d88-9149-fe87ca48ccc3",
+    "name": "HTTP API",
+    "language": "Javascript",
+    "tags": [
+      "Easy",
+      "Quix APIs",
+      "Code samples",
+      "Quick Start"
+    ],
+    "shortDescription": "Publish data to a topic using HTTP Writer API",
+    "sampleTemplate": true,
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "945c70f6-6051-4f0b-b44e-5662deb23abc",
+    "name": "Websocket API",
+    "language": "Javascript",
+    "tags": [
+      "Easy",
+      "Quix APIs",
+      "Code samples",
+      "Quick Start"
+    ],
+    "shortDescription": "Read data from a topic using our Websockets Reader 
+API",
+    "sampleTemplate": true,
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "75369cd3-40d5-471f-8453-ccd2a1cd26d5",
+    "name": "Sample template",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "A sample template for C# applications. Use this project
+as the starting point your own C# Quix Sample.",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "a00cd311-988d-4966-8eb5-eb50ad71dedd",
+    "name": "Starter transformation",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "SDF",
+      "Transformation",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "Template using Streaming Data Frames to transform data 
+between source and destination.",
+    "createdAt": "2024-02-20T09:13:01+00:00",
+    "updatedAt": "2024-02-20T14:22:01+00:00"
+  },
+  {
+    "itemId": "acb7ca8a-c4ba-45b1-9ad4-51df9d479c77",
+    "name": "Threshold alert",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Transformation"
+    ],
+    "shortDescription": "Generates an alert when certain numeric threshold is 
+crossed",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "eec165e1-f648-4e58-9fd3-9af475a840e8",
+    "name": "TfL traffic camera frame grabber",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Mobility"
+    ],
+    "shortDescription": "Grab frames from your TFL traffic camera feed",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "f36c1fdd-b900-4ac5-808c-1ea1320471e7",
+    "name": "Stream merge",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Utility"
+    ],
+    "shortDescription": "Merge the streams from one topic into a single stream 
+on another topic",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "cec97130-e1bd-4839-8190-a0fdc1f89f71",
+    "name": "Snowplow transformation",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Snowplow"
+    ],
+    "shortDescription": "Transform raw Snowplow data to Quix format",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "g207b9ff-3d52-4adb-b99f-e5e46b2642e9",
+    "name": "Sentiment analysis",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Transformation",
+      "Sentiment Analysis",
+      "Machine Learning"
+    ],
+    "shortDescription": "Deploy a sentiment analysis microservice using a 
+Hugging Face model",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "c53e98ac-4953-4211-9541-d6364ceecbd6",
+    "name": "Rolling window",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Code samples",
+      "Transformation",
+      "Utility"
+    ],
+    "shortDescription": "Performs a rolling window function.",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "3c160e63-bf8d-453a-b15c-c83f7522a2dc",
+    "name": "Subreddit title filter",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Code samples",
+      "Utility"
+    ],
+    "shortDescription": "Filter Reddit posts containing a specific word",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "c4f4c164-1e7f-4a2c-81fa-f35f55c2d9b2",
+    "name": "RSS data filtering",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Transformation",
+      "Connectors",
+      "RSS",
+      "QuixStreams",
+      "Utility"
+    ],
+    "shortDescription": "Example of how to filter and augment RSS data",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "e473cfca-5aba-4cb9-b53a-f0e7e24347cb",
+    "name": "Percentage alert",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation"
+    ],
+    "shortDescription": "Generates an alert when certain percentage increase or 
+decrease is achieved",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "fa339ec4-76cc-4912-bf82-8f5b48972007",
+    "name": "New York bikes - Prediction",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Transformation",
+      "Machine Learning",
+      "Mobility"
+    ],
+    "shortDescription": "Predict availability of bikes in New York",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "f7169a9d-edef-417f-94d6-4cbfb89ba22c",
+    "name": "MATLAB",
+    "language": "Python",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Code samples",
+      "Transformation",
+      "MathWorks",
+      "MATLAB",
+      "Scientific Computing"
+    ],
+    "shortDescription": "Transform Quix streams using MATLAB and Simulink",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "75dc0991-5400-4c90-a809-0f0ebf13ea91",
+    "name": "Interpolation",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Code samples",
+      "Transformation",
+      "Utility"
+    ],
+    "shortDescription": "Performs an interpolation function",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "666f7253-22c3-41a4-a5e9-9f8ec084f879",
+    "name": "In memory view",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Code samples",
+      "Transformation"
+    ],
+    "shortDescription": "A template demonstrating how to build an in-memory 
+view.",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "bfee7144-49f1-411d-b5c3-0d8396e2c946",
+    "name": "Computer vision object detection",
+    "language": "Python",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Transformation",
+      "Vision"
+    ],
+    "shortDescription": "Computer vision using YOLO v3",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "d207b9ff-3d52-4adb-b99f-e5e46b2642e9",
+    "name": "Hugging Face model",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Transformation",
+      "Sentiment Analysis",
+      "Machine Learning"
+    ],
+    "shortDescription": "Deploy a Hugging Face model that generates predictions 
+based on the input data",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "266afb0a-2028-4c3f-b049-7213ef5a0673",
+    "name": "Fraud Detection - Prediction",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Transformation",
+      "Code samples",
+      "Fraud Detection"
+    ],
+    "shortDescription": "Use an ML model to predict fraudulent activity",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "3365cdbb-2582-4663-b55d-0c0231f26ee7",
+    "name": "Fraud Detection - Cleaning",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Transformation",
+      "Code samples",
+      "Fraud Detection"
+    ],
+    "shortDescription": "Clean the data before fraud detection stage",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "9b7f7253-22c3-41a4-a5e9-9f8ec084f879",
+    "name": "Event Detection",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Code samples",
+      "Onboarding"
+    ],
+    "shortDescription": "Filter data with this 'Hard Braking' model",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "0587369e-38fb-4222-b96b-68b93482809f",
+    "name": "Down-sampling",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Utility"
+    ],
+    "shortDescription": "Down sample data from 100hz to 10hz",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "d3d0d371-7759-4de8-89da-9b2754cdc2e9",
+    "name": "Streaming demo - Input",
+    "language": "Python",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Code samples",
+      "Demos",
+      "Transformation"
+    ],
+    "shortDescription": "Handle and transform input for the stream processing 
+demo",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "b8654922-8172-4a4b-b292-6d8643245737",
+    "name": "Streaming demo - Control",
+    "language": "Python",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Code samples",
+      "Demos",
+      "Transformation"
+    ],
+    "shortDescription": "Processes input data and sends coordinates, speed and 
+angle to the output topic",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "0e95880b-4d77-434a-80f6-d7290fc00dec",
+    "name": "VisualCrossing Weather",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Source",
+      "Code samples",
+      "Mobility",
+      "Weather",
+      "External APIs",
+      "QuixStreams"
+    ],
+    "shortDescription": "Publish weather API data to a stream",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "8dd9ecb9-d1aa-498c-84fb-054a042acc13",
+    "name": "Starter source",
+    "language": "Python",
+    "tags": [
+      "QuixStreams",
+      "SDF",
+      "Source",
+      "Quick Start",
+      "Demos"
+    ],
+    "shortDescription": "Stream data from hardcoded comma seperated data",
+    "createdAt": "2024-02-20T09:13:01+00:00",
+    "updatedAt": "2024-02-20T09:13:01+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "5a6a33bd-55bb-4af1-8c12-340293efc9e0",
+    "name": "JSON",
+    "language": "Python",
+    "tags": [
+      "QuixStreams",
+      "Source",
+      "Code samples"
+    ],
+    "shortDescription": "Stream data from a JSON file.",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "7abe02e1-1e75-4783-864c-46b930b42afe",
+    "name": "Demo Data",
+    "language": "Python",
+    "tags": [
+      "QuixStreams",
+      "Source",
+      "Quick Start",
+      "Onboarding",
+      "Demos"
+    ],
+    "shortDescription": "Stream F1 Telemetry data from a CSV file",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "49294edb-f541-4e12-b821-0c83e174258a",
+    "name": "CoinAPI WebSocket API",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Source",
+      "Connectors",
+      "WebSockets",
+      "QuixStreams"
+    ],
+    "shortDescription": "Publish real-time currency data from the CoinAPI 
+WebSocket API to a stream",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "e8102920-b815-4c53-9dcd-f477ff865eee",
+    "name": "Flask Web Gateway",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "Flask Web API gateway example to ingest data into the 
+topic from any source.",
+    "createdAt": "2024-01-31T17:00:35+00:00",
+    "updatedAt": "2024-01-31T17:00:35+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "00e1614b-cb4b-400e-9d81-ee84b3ade145",
+    "name": "Twitter",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "Twitter"
+    ],
+    "shortDescription": "Stream Twitter live messages to a Quix topic in real 
+time",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "86195d34-be00-4f0d-a303-c1e95cdb1c32",
+    "name": "TFL Camera Feed",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Source",
+      "Mobility",
+      "Image Processing"
+    ],
+    "shortDescription": "Stream TFL's London traffic camera images",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "ff6f7887-c674-4724-858f-562d2445761d",
+    "name": "TfL BikePoint",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Source",
+      "Mobility",
+      "External APIs",
+      "QuixStreams"
+    ],
+    "shortDescription": "Write TfL BikePoint realtime data to a stream",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "87731a49-ee78-4b74-8544-66ac4da07f73",
+    "name": "Snowplow",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source",
+      "Snowplow",
+      "AWS"
+    ],
+    "shortDescription": "Connect your Snowplow data to a Quix topic with this 
+connector",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "715a301c-6f52-420c-9fba-4d30b0ba3c3f",
+    "name": "Segment",
+    "language": "Python",
+    "tags": [
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "Segment"
+    ],
+    "shortDescription": "Stream Segment event data into Quix",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.jpg",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "e9b31de2-e43b-4e04-a92a-effd348e4eaf",
+    "name": "SQL Change Data Capture",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Source",
+      "Connectors",
+      "SQL",
+      "CDC",
+      "QuixStreams"
+    ],
+    "shortDescription": "Stream changes to data in a SQL Database",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "14a98a82-0deb-489f-ac98-23514532603b",
+    "name": "Redis Time Series",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Redis",
+      "Source",
+      "Connectors",
+      "Redis"
+    ],
+    "shortDescription": "Read from Redis timeseries and publish to Quix 
+streams",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00",
+    "iconFile": "icon.png"
+  },
+  {
+    "itemId": "af47596d-089f-4979-b025-aa969d5f591f",
+    "name": "Reddit",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Code samples",
+      "Connectors"
+    ],
+    "shortDescription": "A Reddit scraper data feed for your Quix pipeline",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "41d74074-d5be-47f8-8fd8-0a564437f34e",
+    "name": "Real-time CSV",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "Publish data from a CSV file into a stream respecting 
+the original time deltas",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "bcf19a92-aaac-4598-9498-080732930e18",
+    "name": "RSS",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Source",
+      "Connectors",
+      "RSS",
+      "QuixStreams"
+    ],
+    "shortDescription": "Integrate an RSS feed into your Quix pipeline",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "faa7578f-8e26-4d59-8ef9-f359d6dfcd77",
+    "name": "Postgres CDC",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Connectors",
+      "Source",
+      "Database",
+      "QuixStreams"
+    ],
+    "shortDescription": "Stream data from Postgres Database CDC to Quix",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "d6c0152c-a4cd-4f56-b5af-8c7844e9eb76",
+    "name": "Open Weather API",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Source",
+      "Code samples",
+      "Mobility",
+      "Weather",
+      "External APIs",
+      "QuixStreams"
+    ],
+    "shortDescription": "Publish Open Weather API data to a stream",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "e3fcd46d-457a-4a33-84d7-a5198ddad673",
+    "name": "Netatmo",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "Netatmo"
+    ],
+    "shortDescription": "Subscribe to sensor data from your Netatmo devices",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "19f690fb-32e9-43d0-b6e2-0e86773c5efd",
+    "name": "New York Bikes",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source",
+      "Mobility"
+    ],
+    "shortDescription": "Write New York CitiBike data to a stream",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "a0b7d375-ee3f-49eb-bc22-ac054ee70ea5",
+    "name": "MQTT",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Source",
+      "Connectors",
+      "MQTT",
+      "QuixStreams"
+    ],
+    "shortDescription": "Easily publish data to Quix from a MQTT topic",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2024-02-23T17:52:39+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "3f9f4c8d-9590-456b-a7c1-89daa1155a6c",
+    "name": "InfluxDB 3.0",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "InfluxData"
+    ],
+    "shortDescription": "Read from InfluxDB 3.0 and publish to Quix streams",
+    "createdAt": "2023-09-22T11:17:17+00:00",
+    "updatedAt": "2024-02-20T10:58:59+00:00",
+    "iconFile": "icon.png"
+  },
+  {
+    "itemId": "c869b72f-4652-495c-be8d-6d374b8c572a",
+    "name": "InfluxDB 2.0",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "InfluxData"
+    ],
+    "shortDescription": "Read from InfluxDB 2.0 and publish to Quix streams",
+    "createdAt": "2024-02-20T10:58:59+00:00",
+    "updatedAt": "2024-02-20T10:58:59+00:00",
+    "iconFile": "icon.png"
+  },
+  {
+    "itemId": "1bb04ae0-2c62-490a-ae77-8a7af00a8853",
+    "name": "Pub/Sub",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "Google"
+    ],
+    "shortDescription": "Subscribe to data in a Google Pub/Sub topic",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "fede18aa-6600-47d6-b684-f662cb9b7b1a",
+    "name": "Fraud detection - Ingest",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Code samples",
+      "Fraud Detection"
+    ],
+    "shortDescription": "Publish raw transaction data to a stream",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "a21dc781-39d3-44c7-b261-b2e4c1b06f63",
+    "name": "Fake transaction generator",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source",
+      "Fraud",
+      "Quick Start",
+      "Code samples",
+      "Demos"
+    ],
+    "shortDescription": "Generate fake credit card transaction data, including 
+fraudulent transactions",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "e8102920-b815-4c53-9dcd-f477ff865b1c",
+    "name": "Starter source",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "The most basic and essential 'Hello World' source 
+sample",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "51e8b701-f688-49e3-82ff-000fdf4b5ee1",
+    "name": "Currency exchange rate data",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "Replay currency exchange rates of September 2021 as if 
+they happened today",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "18e00cde-7fb3-4506-a7e3-bcd86b18d0f7",
+    "name": "Confluent Kafka",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Source",
+      "Connectors",
+      "Confluent",
+      "Kafka",
+      "QuixStreams"
+    ],
+    "shortDescription": "Subscribe to your Confluent Kafka topic with this 
+bridge",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "614fb711-17d4-4099-8f59-9aae4ee68509",
+    "name": "Complete Example",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source"
+    ],
+    "shortDescription": "A complete example of how to write data into a topic",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "c3300384-a991-4bef-9c3d-f05b03baf222",
+    "name": "CoinAPI",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Source",
+      "Connectors",
+      "External APIs",
+      "QuixStreams"
+    ],
+    "shortDescription": "Consume currency data from the CoinAPI REST API",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "a8c8b9f2-2063-4f0f-affe-a1624369a650",
+    "name": "Car Data",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "Write vehicle telemetry data from a CSV file into a 
+stream",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "b6a8cb37-18d6-4785-b96f-bd026b8e66a9",
+    "name": "Real-time vehicle telemetry",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "Write data from a CSV into a stream in realtime at a 
+given rate",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "dbfe14b4-b4f5-4c5d-afa8-9fa9b926489f",
+    "name": "Kinesis",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "AWS"
+    ],
+    "shortDescription": "Connect your Kinesis data to a Quix topic with this 
+connector",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "46a22044-92b2-11ee-b9d1-0242ac120002",
+    "name": "Websocket Server",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors"
+    ],
+    "shortDescription": "Publish timeseries and events to websocket clients",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "a63000ab-b397-4b43-b42e-d54e1da7f627",
+    "name": "Streamlit",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Destination",
+      "Streamlit"
+    ],
+    "shortDescription": "Build a Streamlit real time dashboard",
+    "createdAt": "2023-05-17T09:17:00+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "3ddc14c6-e07f-4092-b203-f969f9eb0b8d",
+    "name": "Starter destination",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "SDF",
+      "Destination",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "Template using Streaming Data Frames to sink data 
+between to a destination.",
+    "createdAt": "2024-02-20T09:13:01+00:00",
+    "updatedAt": "2024-02-20T09:13:01+00:00"
+  },
+  {
+    "itemId": "67c64064-e9ba-4551-8b75-2330d2e13e2e",
+    "name": "Slack",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Onboarding",
+      "Connectors",
+      "Slack"
+    ],
+    "shortDescription": "Send notifications to Slack via webhooks",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "0e436ae9-c48b-4da5-b069-f8703f6ab6cb",
+    "name": "Twilio",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "Twilio"
+    ],
+    "shortDescription": "The most basic code example how to send data in Quix 
+using Twilio",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "ba94b84d-2af9-4720-8c77-6005133bd994",
+    "name": "Timescale",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Connectors",
+      "Destination",
+      "Timescale",
+      "Database",
+      "QuixStreams"
+    ],
+    "shortDescription": "Stream data from Quix to a Timescale Database",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "b9b314d9-ca6d-4990-b465-523d347b137q",
+    "name": "S3",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "AWS"
+    ],
+    "shortDescription": "Publish Quix data to AWS S3",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "643ed9ec-7514-4c2e-b5d4-24850bde64c5",
+    "name": "Redis Time Series",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Redis",
+      "Destination",
+      "Connectors",
+      "Redis"
+    ],
+    "shortDescription": "Publish Quix streams to Redis Stack",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00",
+    "iconFile": "icon.png"
+  },
+  {
+    "itemId": "555f7253-22c3-41a4-a5e9-9f8ec084f879",
+    "name": "Realtime dashboard",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Code samples",
+      "Destination",
+      "Dash"
+    ],
+    "shortDescription": "Template of how to build realtime dashboard with Dash",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "cb43e030-e5b1-4681-bc59-0666d0925254",
+    "name": "Pushover",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "Pushover"
+    ],
+    "shortDescription": "Push notifications and messages to your mobile with 
+Pushover",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "8ba520a1-40f5-42e9-ab92-1f71ac717416",
+    "name": "Prometheus",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "Prometheus"
+    ],
+    "shortDescription": "Prometheus metrics for a topic",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "cc29bdd3-610f-4043-88c8-82075e89dac0",
+    "name": "Postgres",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "Connectors",
+      "Destination",
+      "SQL",
+      "QuixStreams"
+    ],
+    "shortDescription": "Stream data from Quix to a Postgres Database",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "00ce6fbc-6044-4b97-bca9-0fb3d83cd510",
+    "name": "MQTT",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Destination",
+      "Connectors",
+      "MQTT",
+      "QuixStreams"
+    ],
+    "shortDescription": "Easily publish data to a MQTT instance",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2024-02-23T17:52:39+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "bcc847c2-f8a5-47c5-9291-45e95ce9777a",
+    "name": "InfluxDB 3.0",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "InfluxData"
+    ],
+    "shortDescription": "Publish Quix streams to InfluxDB 3.0",
+    "createdAt": "2023-09-22T11:17:17+00:00",
+    "updatedAt": "2024-02-20T10:58:59+00:00",
+    "iconFile": "icon.png"
+  },
+  {
+    "itemId": "b9b314d9-ca6d-4990-b465-523d347b137c",
+    "name": "Firehose",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "AWS"
+    ],
+    "shortDescription": "Publish Quix streams to Amazon Kinesis Data Firehose",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "e406d509-930e-4ae3-bfe8-57bfb8befe9d",
+    "name": "Starter destination",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "The most basic and essential 'Hello World' subscribe 
+sample",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "c6d55693-390d-46fa-8ec4-d58843bcc5fb",
+    "name": "Confluent Kafka",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "Destination",
+      "Connectors",
+      "Confluent",
+      "Kafka",
+      "QuixStreams"
+    ],
+    "shortDescription": "Publish data to your Confluent Kafka topic with this 
+bridge",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2024-02-23T17:52:39+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "b525d3d8-0ee9-44f5-9aa8-8e49a3ddba44",
+    "name": "Complete Example",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Code samples",
+      "Destination"
+    ],
+    "shortDescription": "A complete example of how to read data from a topic",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "66c46c5c-0efc-4245-8213-5f76ff319961",
+    "name": "BigQuery",
+    "language": "Python",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Connectors",
+      "Destination",
+      "Google",
+      "GCP"
+    ],
+    "shortDescription": "Stream data from Quix to BigQuery",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "eb4d88e0-27ae-4ae2-91b2-af3ceadf05e5",
+    "name": "Timestream",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "AWS"
+    ],
+    "shortDescription": "Publish Quix streams to Timestream",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png"
+  },
+  {
+    "itemId": "85932949-fee0-4320-9e2b-f2ded42d42c1",
+    "name": "DynamoDB",
+    "language": "Python",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "AWS"
+    ],
+    "shortDescription": "Publish Quix streams to Amazon DynamoDB",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.jpg"
+  },
+  {
+    "itemId": "dee1e22b-b8e4-4f88-ac16-475f709ff053",
+    "name": "Event Detection Demo UI",
+    "language": "NodeJs",
+    "tags": [
+      "Medium",
+      "QuixStreams"
+    ],
+    "shortDescription": "An Angular UI for the event detection demo",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "0ceed698-7b4f-4549-b209-7d5ab5bc88f6",
+    "name": "Sentiment Demo UI",
+    "language": "NodeJs",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Quix APIs",
+      "Demos"
+    ],
+    "shortDescription": "An Angular UI for the sentiment analysis demo",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "b7cd4cb0-9209-4968-b491-fbac95575960",
+    "name": "QR Settings Share",
+    "language": "NodeJs",
+    "tags": [
+      "Medium",
+      "Quick Start"
+    ],
+    "shortDescription": "Share settings to external apps",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "5976fcd9-2ed6-407c-bc5f-795891340bb5",
+    "name": "TfL image processing UI",
+    "language": "NodeJs",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Quix APIs",
+      "Destination",
+      "Demos"
+    ],
+    "shortDescription": "An Angular UI for the TfL image processing demo",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "a1c46790-6e68-4d7a-8ce2-18ae414b6bf7",
+    "name": "Streaming demo - UI",
+    "language": "NodeJs",
+    "tags": [
+      "Advanced",
+      "Code samples",
+      "Demos",
+      "Quix APIs"
+    ],
+    "shortDescription": "The Web and Phone UI applications for the Stream 
+Processing Demo",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "0556c692-6c8b-4283-9443-7456fc686b87",
+    "name": "Starter transformation",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Code samples",
+      "Quick Start"
+    ],
+    "shortDescription": "Use this template to start building your own 
+transformation",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "e5057b54-e71d-4257-b2f6-eb83e89d2e78",
+    "name": "Downsample example",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Transformation",
+      "Code samples",
+      "Quick Start"
+    ],
+    "shortDescription": "Downsample 100Hz data to 10Hz using the built in 
+buffer",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "410584b6-72b9-4552-8f97-e205e8c412ca",
+    "name": "External topic retransmitter",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "Clone topic external to your workspace",
+    "createdAt": "2022-05-27T00:49:48+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "cf45110d-2e36-4acd-81cc-c36bb4fefa22",
+    "name": "Starter source",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "The most basic and essential 'Hello World' publish 
+sample",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "8abe02e1-1e75-4783-864c-46b930b42afe",
+    "name": "Demo Data",
+    "language": "C#",
+    "tags": [
+      "QuixStreams",
+      "Source",
+      "Quick Start",
+      "Demos"
+    ],
+    "shortDescription": "Stream F1 Telemetry data into a topic from a recorded 
+game session",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "355016ab-5955-4345-8a01-73108f226dab",
+    "name": "Complete Example",
+    "language": "C#",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "A complete example of how to write data into a topic",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "6fd442fb-9e22-434c-84b8-34873e33bc95",
+    "name": "Car Data Generator",
+    "language": "C#",
+    "tags": [
+      "QuixStreams",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "Stream telemetry car data generated from a simple 
+simulation algorithm",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "6cf9def8-936d-4d20-8068-d6b91a8be0b1",
+    "name": "Azure IoT Hub",
+    "language": "C#",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "Azure"
+    ],
+    "shortDescription": "Subscribe to Azure IoT and publish data to Kafka",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "36ee9d31-d789-49f8-a7b0-2001d9120690",
+    "name": "Awair",
+    "language": "C#",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Source"
+    ],
+    "shortDescription": "Awair smart home integration",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "1c0dec04-545f-40cc-aad2-cb3e9a80d8c4",
+    "name": "Ably",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Source",
+      "Connectors",
+      "Ably"
+    ],
+    "shortDescription": "Subscribe to data in an Ably channel",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "9ec049c0-d6d4-4543-805a-1dbac7c3e962",
+    "name": "Snowflake",
+    "language": "C#",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "Snowflake"
+    ],
+    "shortDescription": "Publish data to Snowflake",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "snowflake.jpg",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "9b63324a-f809-43a8-89de-9dcca7ee38c8",
+    "name": "Redshift",
+    "language": "C#",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "AWS"
+    ],
+    "shortDescription": "Publish data to AWS Redshift",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "redshift.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "0d7400c4-39da-4ab2-8717-c906252c2237",
+    "name": "Starter destination",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Quick Start",
+      "Basic templates"
+    ],
+    "shortDescription": "The most basic and essential 'Hello World' subscribe 
+sample",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "c7d2fea3-b8e7-4a9c-ab19-a8b62b6f9d6d",
+    "name": "Complete Example",
+    "language": "C#",
+    "tags": [
+      "Medium",
+      "QuixStreams",
+      "Code samples",
+      "Destination"
+    ],
+    "shortDescription": "A complete example of how to read data from a topic",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "06a66e6d-38ba-40fe-8b0e-d1ce9ce84897",
+    "name": "Ably",
+    "language": "C#",
+    "tags": [
+      "Easy",
+      "QuixStreams",
+      "Destination",
+      "Connectors",
+      "Ably"
+    ],
+    "shortDescription": "Publish data to an Ably Channel",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "47a799c9-2afc-49db-bd10-8b117e0b77ca",
+    "name": "SQL Database",
+    "language": "C#",
+    "tags": [
+      "Advanced",
+      "Destination",
+      "Connectors",
+      "SQL",
+      "QuixStreams"
+    ],
+    "shortDescription": "Publish data to a SQL Database",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "iconFile": "icon.png",
+    "deployReady": true,
+    "deployable": true
+  },
+  {
+    "itemId": "4ac8b9f2-2063-4f0f-affe-a1624369a650",
+    "name": "Quix Companion App",
+    "language": "C#",
+    "tags": [
+      "Advanced",
+      "Quix APIs",
+      "Source",
+      "Code samples",
+      "Mobility"
+    ],
+    "shortDescription": "Xamarin Android app for streaming data to Quix",
+    "createdAt": "2023-05-23T12:19:12+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "f7169a9d-edef-417f-94d6-4cbfb89ba22a",
+    "name": "MATLAB",
+    "language": "C#",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Transformation",
+      "Code samples",
+      "MathWorks",
+      "MATLAB",
+      "Scientific Computing"
+    ],
+    "shortDescription": "Transform Quix streams using MATLAB and Simulink",
+    "createdAt": "2024-01-24T08:40:07+00:00",
+    "updatedAt": "2024-01-24T08:40:07+00:00"
+  },
+  {
+    "itemId": "ff3fc8c4-d3c5-422e-87e5-d893e5c325c6",
+    "name": "Codemasters F1 2019",
+    "language": "C#",
+    "tags": [
+      "Advanced",
+      "QuixStreams",
+      "Source",
+      "Code samples",
+      "Racing"
+    ],
+    "shortDescription": "Stream Codemasters F1 2019 telemetry to Quix",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "97350649-66c0-4d38-aa3c-f0eaefe109dc",
+    "name": "Assetto Corsa",
+    "language": "C#",
+    "tags": [
+      "Advanced",
+      "Source",
+      "Code samples",
+      "QuixStreams"
+    ],
+    "shortDescription": "Create a bridge to stream the game's telemetry to 
+Quix",
+    "createdAt": "2022-02-15T21:06:18+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00"
+  },
+  {
+    "itemId": "81cd2592-0e83-4733-bdb0-6710f8dcca04",
+    "name": "Image processing - Webcam input",
+    "language": "NodeJs",
+    "tags": [
+      "Medium",
+      "Quix APIs",
+      "Code samples",
+      "Source"
+    ],
+    "shortDescription": "Capture images from your webcam with this Angular web 
+app",
+    "createdAt": "2023-03-23T15:04:40+00:00",
+    "updatedAt": "2023-05-23T12:19:12+00:00",
+    "deployReady": true,
+    "deployable": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "repositoryId": "d562246e-ecb7-4c2f-9998-478941263fab",
+  "name": "QuixDemo",
+  "organisationId": "krisajenkins",
+  "repositoryProvider": "Gitea",
+  "gitName": "quixdemo",
+  "sshUrl": "gitea@sshgitea.platform.quix.io:krisajenkins/quixdemo.git",
+  "httpUrl": "https://gitea.platform.quix.io/krisajenkins/quixdemo.git",
+  "createdAt": "2024-03-11T12:48:38.648+00:00",
+  "updatedAt": "2024-03-11T12:48:53.155+00:00"
+}

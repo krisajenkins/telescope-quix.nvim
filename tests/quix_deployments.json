@@ -1,0 +1,28 @@
+{
+  "deploymentId": "bc08a0fc-65f3-4cac-939b-a65f8d6f9cd2",
+  "name": "Demo Data",
+  "workspaceId": "krisajenkins-quixdemo-dev",
+  "replicas": 1,
+  "cpuMillicores": 200,
+  "memoryInMb": 200,
+  "status": "Stopped",
+  "startedAt": "2024-03-11T13:57:20+00:00",
+  "deploymentType": "Job",
+  "variables": {
+    "Topic": {
+      "name": "Topic",
+      "inputType": "OutputTopic",
+      "description": "Name of the output topic to write into",
+      "required": true,
+      "value": "f1-data"
+    }
+  },
+  "createdAt": "2024-03-11T13:57:18.943+00:00",
+  "updatedAt": "2024-03-23T14:40:55.108+00:00",
+  "gitReference": "8aa4f1c36fbfdd9992a6601521f44da4ea3d55e9",
+  "libraryItemId": "7abe02e1-1e75-4783-864c-46b930b42afe",
+  "libraryItemCommitReference": "2cc63cad11e3788ec6c7dd7f421ebedd7e8c3e4a",
+  "applicationId": "Demo Data",
+  "applicationName": "Demo Data",
+  "usingLibraryItemBuild": true
+}

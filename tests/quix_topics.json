@@ -1,0 +1,15 @@
+{
+  "id": "krisajenkins-quixdemo-dev-f1-data",
+  "name": "f1-data",
+  "createdAt": "2024-03-11T13:57:22.578+00:00",
+  "updatedAt": "2024-03-11T13:57:41.415+00:00",
+  "persistedStatus": "Complete",
+  "workspaceId": "krisajenkins-quixdemo-dev",
+  "status": "Ready",
+  "configuration": {
+    "partitions": 1,
+    "replicationFactor": 2,
+    "retentionInMinutes": 1440,
+    "retentionInBytes": 52428800
+  }
+}

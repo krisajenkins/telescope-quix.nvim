@@ -1,0 +1,23 @@
+{
+  "workspaceId": "krisajenkins-quixdemo-dev",
+  "name": "QuixDemo - Dev",
+  "status": "Ready",
+  "broker": {
+    "address": 
+"kafka-k1.quix.io:9093,kafka-k2.quix.io:9093,kafka-k3.quix.io:9093",
+    "securityMode": "SaslSsl",
+    "sslPassword": "ChangeMe",
+    "saslMechanism": "ScramSha256",
+    "username": "krisajenkins-quixdemo-dev",
+    "password": "ChangeMeToo",
+    "hasCertificate": true
+  },
+  "workspaceClassId": "Standard",
+  "storageClassId": "Standard",
+  "createdAt": "2024-03-11T12:49:14.576+00:00",
+  "brokerSettings": {},
+  "repositoryId": "d562246e-ecb7-4c2f-9998-478941263fab",
+  "branch": "main",
+  "environmentName": "Dev",
+  "version": 2
+}

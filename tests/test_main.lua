@@ -36,6 +36,8 @@ local T = MiniTest.new_set({
           return slurp_test_data('quix_organisations.json')
         elseif vim.deep_equal(args, { 'projects', 'list' }) then
           return slurp_test_data('quix_projects.json')
+        elseif vim.deep_equal(args, { 'repositories', 'list' }) then
+          return slurp_test_data('quix_repositories.json')
         elseif vim.deep_equal(args, { 'topics', 'list' }) then
           return slurp_test_data('quix_topics.json')
         elseif vim.deep_equal(args, { 'workspaces', 'list' }) then
@@ -76,6 +78,11 @@ end
 
 T.quix_projects = function()
   child.lua [[ M.quix_projects() ]]
+  expect.reference_screenshot(child.get_screenshot())
+end
+
+T.quix_repositories = function()
+  child.lua [[ M.quix_repositories() ]]
   expect.reference_screenshot(child.get_screenshot())
 end
 

@@ -329,6 +329,41 @@ M.quix_projects = function(opts)
     :find()
 end
 
+M.quix_repositories = function(opts)
+  pickers
+    .new(opts, {
+      finder = finders.new_dynamic({
+        fn = function()
+          return M.quix({ 'repositories', 'list' })
+        end,
+
+        entry_maker = function(entry)
+          log.info('Got raw entry', entry)
+          return {
+            value = entry,
+            display = entry.name,
+            ordinal = entry.name,
+          }
+        end,
+      }),
+
+      sorter = conf.generic_sorter(opts),
+
+      previewer = previewers.new_buffer_previewer({
+        title = 'Repository Details',
+        define_preview = generic_define_preview,
+      }),
+
+      attach_mappings = function(prompt_bufnr)
+        actions.select_default:replace(function()
+          actions.close(prompt_bufnr)
+        end)
+        return true
+      end,
+    })
+    :find()
+end
+
 M.quix_deployments = function(opts)
   pickers
     .new(opts, {

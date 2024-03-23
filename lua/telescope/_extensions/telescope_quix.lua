@@ -8,6 +8,7 @@ return require('telescope').register_extension({
     quix_library = telescope_quix.quix_library,
     quix_organisations = telescope_quix.quix_organisations,
     quix_projects = telescope_quix.quix_projects,
+    quix_repositories = telescope_quix.quix_repositories,
     quix_topics = telescope_quix.quix_topics,
     quix_workspaces = telescope_quix.quix_workspaces,
   },

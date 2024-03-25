@@ -179,7 +179,24 @@ M.quix_library = function(opts)
 
       previewer = previewers.new_buffer_previewer({
         title = 'Library Details',
-        define_preview = generic_define_preview,
+        define_preview = function(self, entry)
+          local formatted = vim.tbl_flatten {
+            '# ' .. entry.value.name,
+            '',
+            'Description: ' .. entry.value.shortDescription,
+            '',
+            'Language: ' .. entry.value.language,
+            'Tags: ' .. vim.fn.join(entry.value.tags, ', '),
+            '',
+            '```lua',
+            vim.split(vim.inspect(entry.value), '\n'),
+            '```',
+          }
+          vim.api.nvim_buf_set_lines(self.state.bufnr, 0, 0, false, formatted)
+          vim.api.nvim_win_set_option(self.state.winid, 'wrap', true)
+
+          utils.highlighter(self.state.bufnr, 'markdown')
+        end,
       }),
 
       attach_mappings = function(prompt_bufnr)

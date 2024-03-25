@@ -170,7 +170,7 @@ M.quix_library = function(opts)
           return {
             value = entry,
             display = entry.name,
-            ordinal = entry.name,
+            ordinal = vim.fn.join(vim.tbl_flatten({ entry.name, entry.tags }), '\n'),
           }
         end,
       }),

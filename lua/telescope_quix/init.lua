@@ -3,14 +3,14 @@ local pickers = require('telescope.pickers')
 local actions = require('telescope.actions')
 local action_state = require('telescope.actions.state')
 local tlog = require('telescope.log')
-tlog.level = 'debug'
+tlog.level = 'info'
 local finders = require('telescope.finders')
 local previewers = require('telescope.previewers')
 local utils = require('telescope.previewers.utils')
 local plenary = require('plenary')
 local log = require('plenary.log').new {
   plugin = 'telescope_quix',
-  level = 'debug',
+  level = 'info',
 }
 
 local generic_define_preview = function(self, entry)
@@ -64,7 +64,7 @@ M.quix_workspaces = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -131,7 +131,7 @@ M.quix_applications = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -166,7 +166,7 @@ M.quix_library = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -201,7 +201,7 @@ M.quix_environments = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -268,7 +268,7 @@ M.quix_organisations = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -303,7 +303,7 @@ M.quix_projects = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -338,7 +338,7 @@ M.quix_repositories = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -373,7 +373,7 @@ M.quix_deployments = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,
@@ -408,7 +408,7 @@ M.quix_topics = function(opts)
         end,
 
         entry_maker = function(entry)
-          log.info('Got raw entry', entry)
+          log.debug('Got raw entry', entry)
           return {
             value = entry,
             display = entry.name,

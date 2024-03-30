@@ -16,9 +16,11 @@ A Neovim Telescope plugin for Quix.
   end,
 }
 ```
+
 ## Testing
 ```sh
 make
 ```
+
 ## TODO
-* See this [github issue](https://github.com/quixio/quix-cli/issues/11) about the Quix CLI output format.
+* See [this Github issue](https://github.com/quixio/quix-cli/issues/11) and [this Github issue](https://github.com/quixio/quix-cli/issues/12) about the Quix CLI output format.

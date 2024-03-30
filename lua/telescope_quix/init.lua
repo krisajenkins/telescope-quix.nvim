@@ -34,7 +34,7 @@ end
 local M = {}
 
 ---@param args string[]
----@return table[] | nil
+---@return table[]
 M.quix = function(args)
   table.insert(args, '--output')
   table.insert(args, 'json')
